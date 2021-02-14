@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: #e7e6e1;
+  font-size: 18px;
+}
+.header-content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.branding h2 {
+  text-transform: uppercase;
+  font-size: 25px;
+  color: #fff;
+  letter-spacing: 2px;
+}
+.menu-area ul {
+  list-style: none;
+  display: flex;
+}
+.menu-area ul li {
+  margin: 0 10px;
+}
+.menu-area ul li a{
+  text-decoration: none;
+  color: #fff;
+  text-transform: capitalize;
+}
+.info-area {
+  margin: 30px;
+}
+.global-information {
+  margin-bottom: 40px;
+}
+.section-title {
+  margin-bottom: 12px;
+}
+.section-title h2 {
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #314e52;
+}
+.section-title h2 span {
+  font-size: 20px;
+}
+.data-table {
+  margin-top: 50px;
+}
+.button-box button {
+  background: #557174;
+  color: #fff;
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 12px 0;
+  text-transform: capitalize;
+  font-size: 20px;
+  letter-spacing: 3px;
+  transition: .5s;
+}
+.button-box button:hover {
+  border: 1px solid #fff;
+}
+.footer-area {
+  background: #214151;
+  color: #fff;
+  padding: 8px 0;
+}
+.footer-text {
+  text-align: center;
+  margin: 20px 0;
+}
+.footer-text p {
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
